@@ -21,8 +21,8 @@ app.post('/webhook', async (req, res) => {
         Body: reply
     }, {
         auth: {
-            username: process.env.'TWILIO_ACCOUNT_SID', // 
-            password: process.env.'TWILIO_AUTH_TOKEN' // 
+            username: process.env.'TWILIO_ACCOUNT_SID // 
+            password: process.env.'TWILIO_AUTH_TOKEN // 
         }
     });
 
